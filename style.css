@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 7rem 10rem;
+    font-family: "Mulish", sans-serif;
+
+    background: #4a4115;
+
+    display: grid;
+    justify-content: center;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+header {
+    display: flex;
+    gap: 3rem;
+
+    margin-bottom: 6rem;
+}
+
+h1 {
+    color: #e4bc77;
+    font-size: 6rem;
+}
+
+header #bandeira {
+    width: 10%;
+    border-radius: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 4rem;
+
+}
+
+.cards {
+    background: #e4bc77;
+
+    padding: 2rem;
+
+    border-radius: 0.8rem;
+
+}
+
+.cards h2 {
+    font-size: 3rem;
+    font-weight: 900;
+
+    padding: 1rem 1rem 0 1rem ;
+}
+
+.cards p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: justify;
+
+    padding: 1rem;
+}
+
+.cards img {
+    width: 100%;
+    border-radius: 0.6rem;
+}
+
+
+
